@@ -16,7 +16,7 @@ layout: default
 * Hartmut Kaiser, Louisiana State University, USA 
 * Dirk Pleiter, KTH Royal Institute of Technology in Stockholm
 * Roman Iakymchuk, Umea University, Sweden
-* Erwin Laure, Max Planck Computing \& Data Facility, Germany
+* Erwin Laure, Max Planck Computing & Data Facility, Germany
 * Laxmikant (Sanjay) V. Kale, University of Illinois at Urbana-Champaign, USA
 * Andrew Lumsdaine, Northwest Institute for Advanced Computing, USA
 * Patricia Grubel, Los Alamos National Laboratory, USA
