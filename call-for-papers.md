@@ -1,17 +1,21 @@
 # Call for papers
 
-Pending
+The next generation of supercomputers will break the exascale barrier, and tremendous amounts of work have been invested into identifying and overcoming the challenges of the exascale era. These challenges include load-balancing, fast data transfers, and efficient resource utilization.  Task-based models and runtime systems have shown that it is possible to address these challenges by providing additional mechanisms such as oversubscription, task/data locality, shared memory, and data dependence-driven execution. 
+
+This workshop explores the advantages of task-based programming on modern and future  HPC systems. It will gather developers, users, and proponents of these models and systems to share experience, discuss how they meet the challenges posed by Exascale system architectures, and explore opportunities for increased performance, robustness, and full-system utilization.
 
 
 
 ## Important dates
 
-* Submission deadline: Pending
-* Acceptance Notification: Pending
-* Revisions of accepted papers due: Pending
+* Submission deadline: June 1, 2022
+* Acceptance Notification: June 30, 2022
+* Revisions of accepted papers due: August 1, 2022
 
 ## Submissions
-Pending
+Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2021#). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and no longer than ten pages, including text, the references section, appendices, and figures.
+
+At least three program committee members will review each submission. Reviews will be double-blind, and papers get assessed for quality, relevance, and presentation of contributions. Springer LNCS will publish the accepted papers.
 
 ## Contact
 For questions or comments regarding the call for papers, please contact ![workshop contact address](workshop_contact.png).
