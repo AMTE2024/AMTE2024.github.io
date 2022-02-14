@@ -18,3 +18,8 @@ The workshop will focus on the following areas:
 * Tools for debugging programs using task-based runtimes
 * Challenges to task-based runtimes in scaling to large clusters
 * Hardware challenges and solutions in using task-based environments
+
+
+## Previous events
+
+* [AMTE 2021](https://amte2021.stellar-group.org/)  @ [Euro-Par 2021](https://2021.euro-par.org/)
