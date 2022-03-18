@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Background
-Supercomputers are now beginning to break the exascale barrier, and tremendous amounts of work have been invested in identifying and overcoming the challenges leading up to this moment. These challenges include load-balancing, fast data transfers, and efficient resource utilization. Task-based models and runtime systems have shown that it is possible to address these challenges by providing additional mechanisms such as oversubscription, task/data locality, shared memory, and data dependence-driven execution. 
+Supercomputers are now beginning to break the exascale barrier, and tremendous amounts of work have been invested in identifying and overcoming the challenges leading up to this moment. These challenges include load-balancing, fast data transfers, and efficient resource utilization. Task-based models and runtime systems have shown that it is possible to address these challenges by providing additional mechanisms such as oversubscription, task/data locality, shared memory, and data dependence-driven execution.
 This workshop explores the advantages of task-based programming on modern and future HPC systems. It will gather developers, users, and proponents of these models and systems to share experience, discuss how they meet the challenges posed by Exascale system architectures, and explore opportunities for increased performance, robustness, and full-system utilization.
 
 ## Topics
@@ -22,4 +22,4 @@ The workshop will focus on the following areas:
 
 ## Previous events
 
-* [AMTE 2021](https://amte2021.stellar-group.org/)  @ [Euro-Par 2021](https://2021.euro-par.org/)
+* [AMTE 2021](https://amte2021.stellar-group.org/) @ [Euro-Par 2021](https://2021.euro-par.org/)

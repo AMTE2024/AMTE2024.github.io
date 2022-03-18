@@ -9,10 +9,10 @@ layout: default
 * Steven R. Brandt, Center for Computation & Technology at Louisiana State University, USA
 * Parsa Amini, Center for Computation & Technology at Louisiana State University, USA
 
-# Program Committee 
+# Program Committee
 
 * Thomas Heller, Exasol, Germany
-* Hartmut Kaiser, Louisiana State University, USA 
+* Hartmut Kaiser, Louisiana State University, USA
 * Dirk Pleiter, KTH Royal Institute of Technology in Stockholm
 * Roman Iakymchuk, Umea University, Sweden
 * Erwin Laure, Max Planck Computing & Data Facility, Germany
@@ -28,11 +28,11 @@ layout: default
 * Shahrzad Shirzad, Louisiana State University, USA
 * Peter Thoman, University of Innsbruck, Austria
 * J. "Ram" Ramanujam, Louisiana State University, USA
-* Keita Teranishi, Sandia National Laboratory, USA 
-* Gerald Baumgartner, Louisiana State University, USA 
+* Keita Teranishi, Sandia National Laboratory, USA
+* Gerald Baumgartner, Louisiana State University, USA
 * Pat McCormick, Los Alamos National Laboratory, USA
 * Daisy Hollman, Google, USA
 * Thomas Fahringer, University of Innsbruck, Austria
-* Pedro Valero Lara, Oak Ridge National Laboratory, USA 
+* Pedro Valero Lara, Oak Ridge National Laboratory, USA
 * Adrian Lemoine, AMD, USA
 * Mikael Simberg, Swiss National Supercomputing Centre, Switzerland
