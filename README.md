@@ -13,3 +13,16 @@ magick -background none \
     -gravity northwest -splice 30x25 \
     logo.png
 ```
+## Making contact email images with ImageMagick
+```bash
+magick -background none \
+    -density 196 \
+    -font /System/Library/Fonts/Menlo.ttc \
+    label:'amte2022@parsaamini.net' \
+    -resample 72 \
+    -unsharp 0x.5 \
+    -gravity northwest \
+    -splice 0x25 \
+    /Users/parsa/Repositories/stellargroup/AMTE2022.github.io/workshop_contact.png
+```
+

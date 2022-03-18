@@ -13,7 +13,7 @@ This workshop explores the advantages of task-based programming on modern and fu
 * Revisions of accepted papers due: TBA
 
 ## Submissions
-Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2021#). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and no longer than ten pages, including text, the references section, appendices, and figures.
+Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2022). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and no longer than ten pages, including text, the references section, appendices, and figures.
 
 At least three program committee members will review each submission. Reviews will be double-blind, and papers get assessed for quality, relevance, and presentation of contributions. Springer LNCS will publish the accepted papers.
 
