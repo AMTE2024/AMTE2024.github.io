@@ -25,7 +25,6 @@ layout: default
 * Brad Richardson, Sourcery Institute, USA
 * Kevin Huck, University of Oregon, USA
 * Jeff Hammond, NVIDIA, USA
-* Shahrzad Shirzad, Louisiana State University, USA
 * Peter Thoman, University of Innsbruck, Austria
 * J. "Ram" Ramanujam, Louisiana State University, USA
 * Keita Teranishi, Sandia National Laboratory, USA
