@@ -1,0 +1,22 @@
+{
+    // "image": "debian:bullseye",
+    "build": {
+        // "context": ".",
+        "dockerfile": "Dockerfile",
+        "args": {
+            // "BUILD_FROM": "debian:bullseye"
+            "USERNAME": "${localEnv:USER}",
+        }
+    },
+    // "remoteUser": "${localEnv:USER}",
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+        "sissel.shopify-liquid",
+    ],
+    "forwardPorts": [
+        4000
+    ],
+    "postCreateCommand": "sh .devcontainer/post-create.sh",
+}
