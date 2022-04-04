@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Call for papers
 
 The next generation of supercomputers will break the exascale barrier, and tremendous amounts of work have been invested into identifying and overcoming the challenges of the exascale era. These challenges include load-balancing, fast data transfers, and efficient resource utilization. Task-based models and runtime systems have shown that it is possible to address these challenges by providing additional mechanisms such as oversubscription, task/data locality, shared memory, and data dependence-driven execution.
