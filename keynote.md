@@ -6,7 +6,7 @@ layout: default
 
 ## Speaker:
 
-![Bryce Lelbach](balelbach.jpg)
+![Bryce Lelbach](assets/balelbach.jpg)
 
 Bryce Adelstein Lelbach, NVIDIA
 

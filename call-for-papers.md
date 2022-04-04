@@ -21,4 +21,4 @@ Authors need to submit their work through [EasyChair](https://easychair.org/my/c
 At least three program committee members will review each submission. Reviews will be double-blind, and papers get assessed for quality, relevance, and presentation of contributions. Springer LNCS will publish the accepted papers.
 
 ## Contact
-For questions or comments regarding the call for papers, please contact ![workshop contact address](workshop_contact.png).
+For questions or comments regarding the call for papers, please contact ![workshop contact address](assets/workshop_contact.png).

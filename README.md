@@ -11,7 +11,7 @@ magick -background none \
     -unsharp 0x.5 \
     -gravity southeast -splice 30x25 \
     -gravity northwest -splice 30x25 \
-    logo.png
+    assets/logo.png
 ```
 ## Making contact email images with ImageMagick
 ```bash
