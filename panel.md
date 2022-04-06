@@ -7,7 +7,11 @@ layout: default
 ## Moderator
 
 {% assign mod = site.data.panel.moderator %}
+{% if mod %}
 * {{ mod.name }}, {{ mod.affiliation }}, {{ mod.country }}
+{% else %}
+The moderator has not been announced yet.
+{% endif %}
 
 ## Panelists
 
