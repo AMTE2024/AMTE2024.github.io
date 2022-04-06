@@ -6,16 +6,40 @@ layout: default
 
 ## Moderator
 
-* Irina Demeshko, Los Alamos National Laboratory, USA
+{% assign mod = site.data.panel.moderator %}
+* {{ mod.name }}, {{ mod.affiliation }}, {{ mod.country }}
 
 ## Panelists
 
-* Pending
+{% if site.data.panel.panelists %}
+{% for panelist in site.data.panel.panelists -%}
+* {{ panelist.name }}, {{ panelist.affiliation }}, {{ panelist.country }}
+{% endfor %}
+{% else %}
+Panelists have not been announced yet.
+{% endif %}
 
 ## Panel's chosen questions
 
-* Pending
+{% if site.data.panel.questions %}
+{% for question in site.data.panel.questions %}
+* {{ question.q }}
+    {%- if question.followups -%}
+    {% for followup in question.followups %}
+    * {{ followup }}
+    {%- endfor -%}
+    {%- endif -%}
+{% endfor %}
+{% else %}
+No questions have been chosen yet.
+{% endif %}
 
 ## Outline
 
-* Pending
+{% if site.data.panel.outline %}
+{% for item in site.data.panel.outline %}
+* {{ item }}
+{%- endfor -%}
+{% else %}
+Panel outline has not been announced yet.
+{% endif %}

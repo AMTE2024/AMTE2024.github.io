@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 
 title: Asynchronous Many-Task systems for Exascale 2022
-logo: assets/logo.png
+logo: /assets/logo.png
 conf_city: Glasgow, Scotland, United Kingdom
 acronym: AMTE 2022
 workshop_date: 22–26 August 2022

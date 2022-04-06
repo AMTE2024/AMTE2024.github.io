@@ -1,0 +1,89 @@
+organizing:
+  - name: Irina Demeshko
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Patrick Diehl
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Zahra Khatami
+    affiliation: NVIDIA
+    country: USA
+  - name: Steven R. Brandt
+    affiliation: Center for Computation & Technology at Louisiana State University
+    country: USA
+  - name: Parsa Amini
+    affiliation: Halpern-Wight Inc.
+    country: USA
+program:
+  - name: Thomas Heller
+    affiliation: Exasol
+    country: Germany
+  - name: Hartmut Kaiser
+    affiliation: Louisiana State University
+    country: USA
+  - name: Dirk Pleiter
+    affiliation: KTH Royal Institute of Technology in Stockholm
+    country: Sweden
+  - name: Roman Iakymchuk
+    affiliation: Umea University
+    country: Sweden
+  - name: Erwin Laure
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany
+  - name: Laxmikant (Sanjay) V. Kale
+    affiliation: University of Illinois at Urbana-Champaign
+    country: USA
+  - name: Andrew Lumsdaine
+    affiliation: Northwest Institute for Advanced Computing
+    country: USA
+  - name: Patricia Grubel
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Vassilios Dimakopoulos
+    affiliation: University of Ioannina
+    country: Greece
+  - name: Metin H. Aktulga
+    affiliation: Michigan State University
+    country: USA
+  - name: Galen Shipman
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Brad Richardson
+    affiliation: Sourcery Institute
+    country: USA
+  - name: Kevin Huck
+    affiliation: University of Oregon
+    country: USA
+  - name: Jeff Hammond
+    affiliation: NVIDIA
+    country: USA
+  - name: Peter Thoman
+    affiliation: University of Innsbruck
+    country: Austria
+  - name: J. "Ram" Ramanujam
+    affiliation: Louisiana State University
+    country: USA
+  - name: Keita Teranishi
+    affiliation: Sandia National Laboratory
+    country: USA
+  - name: Gerald Baumgartner
+    affiliation: Louisiana State University
+    country: USA
+  - name: Pat McCormick
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Daisy Hollman
+    affiliation: Google
+    country: USA
+  - name: Thomas Fahringer
+    affiliation: University of Innsbruck
+    country: Austria
+  - name: Pedro Valero Lara
+    affiliation: Oak Ridge National Laboratory
+    country: USA
+  - name: Adrian Lemoine
+    affiliation: AMD
+    country: USA
+  - name: Mikael Simberg
+    affiliation: Swiss National Supercomputing Centre
+    country: Switzerland
