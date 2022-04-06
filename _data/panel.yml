@@ -2,6 +2,20 @@ moderator:
   name: Irina Demeshko
   affiliation: Los Alamos National Laboratory
   country: USA
+
 panelists: null
+# panelists:
+#   - name: null
+#     affiliation: null
+#     country: null
+
 questions: null
+# questions:
+#   - q: null
+#   - q: null
+#     followups:
+#       - null
+
 outline: null
+# outline:
+#  - Introduction of the panelists
