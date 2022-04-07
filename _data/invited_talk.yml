@@ -1,8 +1,8 @@
-# speaker:
-#   name: null
+speaker:
+  name: Elliot Ronaghan
 #   courtesy_title: null
-#   affiliation: null
-#   country: null
+  affiliation: HPE
+  country: USA
 #   photo: null
 #   bio: null
 # title: null

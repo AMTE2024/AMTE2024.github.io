@@ -28,12 +28,15 @@ magick -background none \
 
 ## Email obfuscation (Alberti Encryption)
 ```python
+d = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@_-+.";
+# s = "FU4SEFKNYg9osdgvuCAuLFX"
+
 def albenc(s):
     r = ''
     for i, ch in enumerate(s):
-        if ord(ch) in range(32, 123):
-            alpha_index = (ord(ch) - 32 + i) % (123 - 32)
-            r += chr(alpha_index + 32)
+        if ch in d:
+            alpha_index = (d.index(ch) + 3 * i + 31) % len(d)
+            r += d[alpha_index]
         else:
             r += ch
     return r
@@ -43,13 +46,12 @@ print(s)
 def albdec(s):
     r = ''
     for i, ch in enumerate(s):
-        ch_i = ord(ch)
-        if ch_i >= 32 and ch_i < 123:
-            r += chr((ord(ch) - 32 - i) % (123 - 32) + 32)
+        if ch in d:
+            r += d[(d.index(ch) - 3 * i - 31) % len(d)]
         else:
             r += ch
     return r
-albdec(s)
+print(albdec(s))
 ```
 
 ```javascript
