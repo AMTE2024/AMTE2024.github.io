@@ -2,12 +2,14 @@
 layout: default
 ---
 
-{% if site.data.keynote %}
+{% assign talk = site.data.keynote %}
+{% assign speaker = talk.speaker %}
+
+{% if talk %}
 # Keynote talk
 
 ## Speaker
 
-{% assign speaker = site.data.keynote.speaker %}
 {% if speaker.photo %}
 ![{{ speaker.name }}]({{ speaker.photo }})
 {% endif %}
@@ -16,7 +18,6 @@ layout: default
 
 {{ speaker.bio }}
 
-{% assign talk = site.data.keynote %}
 {% if talk.title and talk.abstract %}
 ### {{ talk.title }}
 

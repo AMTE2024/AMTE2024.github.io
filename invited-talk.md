@@ -2,12 +2,14 @@
 layout: default
 ---
 
-{% if site.data.invited_talk %}
+{% assign talk = site.data.invited_talk %}
+{% assign speaker = talk.speaker %}
+
+{% if talk %}
 # Invited talk
 
 ## Speaker
 
-{% assign speaker = site.data.invited_talk.speaker %}
 {% if speaker.photo %}
 ![{{ speaker.name }}]({{ speaker.photo }})
 {% endif %}
@@ -16,7 +18,6 @@ layout: default
 
 {{ speaker.bio }}
 
-{% assign talk = site.data.invited_talk %}
 {% if talk.title and talk.abstract %}
 ### {{ talk.title }}
 
