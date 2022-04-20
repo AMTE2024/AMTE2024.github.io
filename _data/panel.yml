@@ -3,10 +3,10 @@ moderator:
   affiliation: NVIDIA
   country: USA
 
-# panelists:
-#   - name: null
-#     affiliation: null
-#     country: null
+ panelists:
+   - name: Hartmut Kaiser
+     affiliation: Louisiana State University
+     country: USA
 
 # questions:
 #   - q: null
