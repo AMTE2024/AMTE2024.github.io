@@ -11,7 +11,7 @@ This workshop explores the advantages of task-based programming on modern and fu
 
 ## Important dates
 
-* Submission deadline: May 6, 2022
+* Submission deadline: ~~May 6, 2022~~ Extended to **May 20, 2022**
 * Acceptance Notification: July 1, 2022
 * Revisions of accepted papers due: TBA
 
