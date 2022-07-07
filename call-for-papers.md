@@ -13,7 +13,7 @@ This workshop explores the advantages of task-based programming on modern and fu
 
 * Submission deadline: ~~May 6, 2022~~ Extended to **May 20, 2022**
 * Acceptance Notification: July 1, 2022
-* Revisions of accepted papers due: TBA
+* Revisions of accepted papers due: July 25, 2022
 
 ## Submissions
 Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2022). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and between ten and twelve pages, including text, the references section, appendices, and figures.
