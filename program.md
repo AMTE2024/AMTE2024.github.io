@@ -29,3 +29,5 @@ Chair: Bryce Adelstein Lelbach
 ---
 
 All times are in Western European Time ([GMT+1](https://24timezones.com/Glasgow/time)).
+
+The complete EuroPar workshop program is available at [https://2022.euro-par.org/program/workshops-and-tutorial/](https://2022.euro-par.org/program/workshops-and-tutorial/).
