@@ -1,5 +1,6 @@
-# - title: null
-#   id: null
-#   authors:
-#     - null
-#   abstract: null
+ - title: A Portable and Heterogeneous LU Factorization on IRIS
+   id: 198
+   authors:
+     - Pedro Valero-Lara, Jungwon Kim and Jeffrey Vetter
+   abstract: "In this work, we evaluate the use of the IRIS programming model to improve
+performance portability for heterogeneous systems using LU matrix factorization as motivating test case. Using IRIS we are able to separate the definition of the algorithm, using tasks + dependencies, from the tuning. This reduces the efforts for performance portability on heterogeneous systems considerably. One single IRIS codes can use different settings depending on the hardware features. LU factorization is considered one of the most important numerical linear algebra operations used in multiple HPC and scientific applications. We evaluate different configurations on two different heterogeneous systems achieving important speedups w.r.t. the reference code with minimal changes to the source code."
