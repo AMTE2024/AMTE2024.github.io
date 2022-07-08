@@ -25,3 +25,7 @@ Chair: Bryce Adelstein Lelbach
 * 16:00 - 16:20, Paper 155: Quantifying Overheads in Charm++ and HPX using Task Bench (Nanmiao Wu, LSU)
 * 16:20 - 17:20, [Invited talk](https://amte2022.stellar-group.org/invited-talk) (Elliot Ronaghan, HPE)
 * 17:20 - 17:30, General discussion
+
+---
+
+All times are in Western European Time ([GMT+1](https://24timezones.com/Glasgow/time)).
