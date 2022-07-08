@@ -14,11 +14,11 @@ Chair: Steven R. Brandt
 * 14:05 - 15:05, [Keynote Talk](https://amte2022.stellar-group.org/keynote) (Bryce Adelstein Lelbach, NVIDIA)
 * 15:05 - 15:25, Paper 198: A Portable and Heterogeneous LU Factorization on IRIS (Pedro Valero-Lara, ORNL)
 
---
+---
 
 * 15:30 - 16:00, Afternnon break
 
---
+---
 
 Chair: Bryce Adelstein Lelbach
 
