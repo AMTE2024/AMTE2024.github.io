@@ -9,6 +9,14 @@ performance portability for heterogeneous systems using LU matrix factorization 
  - title: Quantifying Overheads in Charm++ and HPX using Task Bench
    id: 155
    authors:
-     - 0
+     - Nanmiao Wu 
+     - Ioannis Gonidelis
+     - Simeng Liu
+     - Zane Fink
+     - Nikunj Gupta
+     - Karame Mohammadiporshokooh
+     - Patrick Diehl
+     - Hartmut Kaiser 
+     - Laxmikant V. Kale
    abstract: "Asynchronous Many-Task (AMT) runtime systems take advantage of multi-core architectures with light-weight threads, asynchronous executions, and smart scheduling. In this paper, we present the comparison of the AMT systems Charm++ and HPX with the main stream MPI, OpenMP, and MPI+OpenMP libraries using the Task Bench benchmarks. Charm++ is a parallel programming language based on C++, supporting stackless tasks as well as light-weight threads asynchronously along with an adaptive runtime system. HPX is a C++ library for concurrency and parallelism, exposing C++ standards conforming API. First, we analyze the commonalities, differences, and advantageous scenarios of Charm++ and HPX in detail. Further, to investigate the potential overheads introduced by the tasking systems of Charm++ and HPX, we utilize
 an existing parameterized benchmark, Task Bench, wherein 15 different programming systems were implemented, and extend Task Bench by adding HPX implementations. We quantify the overheads of Charm++, HPX, and the main stream libraries in different scenarios where a single task and multi-task are assigned to each core, respectively. We also investigate each system’s scalability and the ability to hide the communication latency."
