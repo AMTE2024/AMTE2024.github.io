@@ -16,7 +16,7 @@ Chair: Steven R. Brandt
 
 ---
 
-* 15:30 - 16:00, Afternnon break
+* 15:30 - 16:00, Afternoon break
 
 ---
 
