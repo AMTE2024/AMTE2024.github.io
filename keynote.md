@@ -22,6 +22,9 @@ layout: default
 ### {{ talk.title }}
 
 {{ talk.abstract }}
+
+* [Slides](/assets/slides/cpp_standard_parallelism__r8__2022_europar_amte.pdf)
+
 {% endif %}
 
 {% else %}
