@@ -22,6 +22,10 @@ layout: default
 ### {{ talk.title }}
 
 {{ talk.abstract }}
+
+* [Slides](/assets/slides/ChapelForAMTE2022.pdf)
+
+
 {% endif %}
 
 {% else %}
