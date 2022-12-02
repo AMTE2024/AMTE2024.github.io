@@ -11,12 +11,12 @@ This workshop explores the advantages of task-based programming on modern and fu
 
 ## Important dates
 
-* Submission deadline: ~~May 6, 2022~~ Extended to **May 20, 2022**
-* Acceptance Notification: July 1, 2022
-* Revisions of accepted papers due: July 25, 2022
+* Submission deadline: May 6, 2023
+* Acceptance Notification: July 1, 2023
+* Revisions of accepted papers due: July 25, 2023
 
 ## Submissions
-Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2022). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and between ten and twelve pages, including text, the references section, appendices, and figures.
+Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2023). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and between ten and twelve pages, including text, the references section, appendices, and figures.
 
 At least three program committee members will review each submission. Reviews will be double-blind, and papers get assessed for quality, relevance, and presentation of contributions. Springer LNCS will publish the accepted papers.
 All submitted manuscripts will be checked for originality by [iThenticate](https://www.ithenticate.com/) (papers that show an insufficient originality might be rejected without a review). 

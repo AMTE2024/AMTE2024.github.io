@@ -23,7 +23,7 @@ layout: default
 
 {{ talk.abstract }}
 
-* [Slides](/assets/slides/ChapelForAMTE2022.pdf)
+<!-- * [Slides](/assets/slides/ChapelForAMTE2022.pdf) -->
 
 
 {% endif %}

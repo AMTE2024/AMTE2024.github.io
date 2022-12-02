@@ -1,33 +1,33 @@
-speaker:
-  name: Elliot Ronaghan
-#   courtesy_title: null
-  affiliation: HPE
-  country: USA
-  photo: /assets/eronaghan.jpg
-  bio: >
-    Elliot Ronaghan is the lead performance engineer for the Chapel parallel
-    programming language at Hewlett Packard Enterprise. He received his
-    Masters's degree in Computer Science and Engineering from the University
-    of Washington. His current work focuses on improving the performance of
-    user applications through optimizations to Chapel's tasking and
-    communication runtime libraries as well as direct optimizations to user
-    code.
-title: Asynchronous Task-Based Aggregated Communication in Chapel
-abstract: |
-    Chapel is a parallel programming language that supports general-purpose
-    asynchronous task-parallelism, either locally on a single node or
-    distributed across multiple nodes of a cluster or supercomputer. In this
-    talk, I’ll introduce Chapel’s features for creating tasks and provide an
-    overview of how those features map down to Chapel's runtime tasking layer.
-    I’ll also demonstrate a key case where we’ve leveraged asynchronous
-    tasking to implement aggregated communications in an efficient, but
-    high-level user-level library.
+# speaker:
+#   name: Elliot Ronaghan
+# #   courtesy_title: null
+#   affiliation: HPE
+#   country: USA
+#   photo: /assets/eronaghan.jpg
+#   bio: >
+#     Elliot Ronaghan is the lead performance engineer for the Chapel parallel
+#     programming language at Hewlett Packard Enterprise. He received his
+#     Masters's degree in Computer Science and Engineering from the University
+#     of Washington. His current work focuses on improving the performance of
+#     user applications through optimizations to Chapel's tasking and
+#     communication runtime libraries as well as direct optimizations to user
+#     code.
+# title: Asynchronous Task-Based Aggregated Communication in Chapel
+# abstract: |
+#     Chapel is a parallel programming language that supports general-purpose
+#     asynchronous task-parallelism, either locally on a single node or
+#     distributed across multiple nodes of a cluster or supercomputer. In this
+#     talk, I’ll introduce Chapel’s features for creating tasks and provide an
+#     overview of how those features map down to Chapel's runtime tasking layer.
+#     I’ll also demonstrate a key case where we’ve leveraged asynchronous
+#     tasking to implement aggregated communications in an efficient, but
+#     high-level user-level library.
 
-    Chapel's parallel and distributed features make it easy to write compact
-    and straightforward aggregators and the tasking-based runtime provides
-    trivial overlap of communication and computation, which enables high
-    performance. We have seen performance compete with and even exceed highly
-    tuned aggregation libraries written in SHMEM. This talk will show direct
-    comparisons to the Bale Exstack and Conveyors aggregation libraries up to
-    512 nodes (~18K cores) on a Cray XC and performance results for a flagship
-    user application on up to 576 nodes (~74K cores) of an HPE Apollo system.
+#     Chapel's parallel and distributed features make it easy to write compact
+#     and straightforward aggregators and the tasking-based runtime provides
+#     trivial overlap of communication and computation, which enables high
+#     performance. We have seen performance compete with and even exceed highly
+#     tuned aggregation libraries written in SHMEM. This talk will show direct
+#     comparisons to the Bale Exstack and Conveyors aggregation libraries up to
+#     512 nodes (~18K cores) on a Cray XC and performance results for a flagship
+#     user application on up to 576 nodes (~74K cores) of an HPE Apollo system.
