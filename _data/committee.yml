@@ -39,51 +39,21 @@ organizing:
    - name: Metin H. Aktulga
      affiliation: Michigan State University
      country: USA
-#   - name: Galen Shipman
-#     affiliation: Los Alamos National Laboratory
-#     country: USA
    - name: Brad Richardson
      affiliation: Sourcery Institute
      country: USA
-#   - name: Kevin Huck
-#     affiliation: University of Oregon
-#     country: USA
    - name: Huda Ibeid
      affiliation: Intel
      country: USA
-#   - name: Peter Thoman
-#     affiliation: University of Innsbruck
-#     country: Austria
    - name: J. "Ram" Ramanujam
      affiliation: Louisiana State University
      country: USA
-#   - name: Keita Teranishi
-#     affiliation: Sandia National Laboratory
-#     country: USA
-#   - name: Gerald Baumgartner
-#     affiliation: Louisiana State University
-#     country: USA
-#   - name: Pat McCormick
-#     affiliation: Los Alamos National Laboratory
-#     country: USA
-#   - name: Daisy Hollman
-#     affiliation: Google
-#     country: USA
    - name: Thomas Fahringer
      affiliation: University of Innsbruck
      country: Austria
    - name: Pedro Valero Lara
      affiliation: Oak Ridge National Laboratory
      country: USA
-#   - name: Adrian Lemoine
-#     affiliation: AMD
-#     country: USA
-#   - name: Mikael Simberg
-#     affiliation: Swiss National Supercomputing Centre
-#     country: Switzerland
-#   - name: Bita Hasheminezhad
-#     affiliation: NASA Ames Research Center
-#     country: USA
    - name: Michael Wong
      affiliation: Codeplay Software
      country: USA
