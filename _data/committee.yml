@@ -57,3 +57,6 @@ program:
   - name: Michael Wong
     affiliation: Codeplay Software
     country: USA
+  - name: Dirk Pflüger
+    affiliation: University of Stuttgart
+    country: Germany
