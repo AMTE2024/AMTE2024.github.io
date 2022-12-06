@@ -15,45 +15,45 @@ organizing:
     affiliation: Halpern-Wight Inc.
     country: USA
  program:
-   - name: Thomas Heller
-     affiliation: Exasol
-     country: Germany
-   - name: Hartmut Kaiser
-     affiliation: Louisiana State University
-     country: USA
-   - name: Dirk Pleiter
-     affiliation: KTH Royal Institute of Technology in Stockholm
-     country: Sweden
-   - name: Roman Iakymchuk
-     affiliation: Umea University
-     country: Sweden
-   - name: Erwin Laure
-     affiliation: Max Planck Computing & Data Facility
-     country: Germany
-   - name: Patricia Grubel
-     affiliation: Los Alamos National Laboratory
-     country: USA
-   - name: Vassilios Dimakopoulos
-     affiliation: University of Ioannina
-     country: Greece
-   - name: Metin H. Aktulga
-     affiliation: Michigan State University
-     country: USA
-   - name: Brad Richardson
-     affiliation: Sourcery Institute
-     country: USA
-   - name: Huda Ibeid
-     affiliation: Intel
-     country: USA
-   - name: J. "Ram" Ramanujam
-     affiliation: Louisiana State University
-     country: USA
-   - name: Thomas Fahringer
-     affiliation: University of Innsbruck
-     country: Austria
-   - name: Pedro Valero Lara
-     affiliation: Oak Ridge National Laboratory
-     country: USA
-   - name: Michael Wong
-     affiliation: Codeplay Software
-     country: USA
+  - name: Thomas Heller
+    affiliation: Exasol
+    country: Germany
+  - name: Hartmut Kaiser
+    affiliation: Louisiana State University
+    country: USA
+  - name: Dirk Pleiter
+    affiliation: KTH Royal Institute of Technology in Stockholm
+    country: Sweden
+  - name: Roman Iakymchuk
+    affiliation: Umea University
+    country: Sweden
+  - name: Erwin Laure
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany
+  - name: Patricia Grubel
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Vassilios Dimakopoulos
+    affiliation: University of Ioannina
+    country: Greece
+  - name: Metin H. Aktulga
+    affiliation: Michigan State University
+    country: USA
+  - name: Brad Richardson
+    affiliation: Sourcery Institute
+    country: USA
+  - name: Huda Ibeid
+    affiliation: Intel
+    country: USA
+  - name: J. "Ram" Ramanujam
+    affiliation: Louisiana State University
+    country: USA
+  - name: Thomas Fahringer
+    affiliation: University of Innsbruck
+    country: Austria
+  - name: Pedro Valero Lara
+    affiliation: Oak Ridge National Laboratory
+    country: USA
+  - name: Michael Wong
+    affiliation: Codeplay Software
+    country: USA
