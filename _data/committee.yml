@@ -60,3 +60,6 @@ program:
   - name: Dirk Pflüger
     affiliation: University of Stuttgart
     country: Germany
+  - name: Peter Thoman
+    affiliation: University of Innsbruck
+    country: Austria
