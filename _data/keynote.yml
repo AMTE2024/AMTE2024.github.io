@@ -1,8 +1,8 @@
 # speaker:
-#   name: Bryce Adelstein Lelbach
+   name: Thomas Sterling
 #   courtesy_title: null
-#   affiliation: NVIDIA
-#   country: USA
+   affiliation: Indiana University Bloomington
+   country: USA
 #   photo: /assets/balelbach.jpg
 #   bio: >
 #     Bryce Adelstein Lelbach has spent over a decade developing programming
@@ -17,7 +17,7 @@
 #     on concurrency primitives, parallel algorithms, executors, and multidimensional
 #     arrays. He is one of the founding developers of the HPX parallel runtime
 #     system.
-# title: C++ Standard Parallelism
+ title: TBA
 # abstract: |
 #     Imagine writing parallel code that can run on any platform - CPUs, GPUs,
 #     DPUs, specialized accelerators, etc - without any language or vendor
