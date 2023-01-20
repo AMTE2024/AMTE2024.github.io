@@ -69,3 +69,6 @@ program:
   - name: Bryce Adelstein Lelbach
     affiliaiton: Nvidia
     country: USA
+  - name: Weile Wei
+    affiliation: Lawrence Berkeley National Laboratory
+    country: USA
