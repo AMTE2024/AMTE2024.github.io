@@ -25,14 +25,14 @@
     class of many-task asynchronous computing offers promising new directions at a time when the
     end of Moore's Law at nano-scale technology eliminates a previous means of exponential
     growth. This presentation introduces Active Memory Architecture (AMA), a memory-centric
-    structure and non von Neumann semantics for parallel execution of time-varying graph-based
+    structure and non-von Neumann semantics for parallel execution of time-varying graph-based
     applications. The wide range of applicable domains include: numeric-intensive problems such
-    as AMR, PIC, and N-body as well as symbolic-computations for data analytics, machine learning,
+    as AMR, PIC, and N-body, as well as symbolic-computations for data analytics, machine learning,
     decision making, and machine understanding. AMA is a leap forward in parallel computer
-    architecture. It is based on the ParalleX execution model that is an advanced many-task
+    architecture. It is based on the ParalleX execution model, an advanced many-task
     asynchronous paradigm exploiting runtime information for resource management and task
     scheduling and replacing the legacy von Neumann architecture with memory-centric structures.
-    Memory latency and memory bandwidth is prioritized rather than FPU utilization. The IARPA
+    Memory latency and memory bandwidth are prioritized rather than FPU utilization. The IARPA
     AGILE research program is sponsoring the design and analysis of AMA to determine its viability
     and competitiveness with respect to more conventional strategies. Early analysis suggests that
     an AMA exascale system with contemporary technologies is achievable in less than 1/10 th the
