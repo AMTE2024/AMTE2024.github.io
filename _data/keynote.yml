@@ -1,24 +1,27 @@
- speaker:
-   name: Thomas Sterling, Ph.D
+speaker:
+  name: Thomas Sterling, Ph.D
 #   courtesy_title: null
-   affiliation: President and Chief Scientist, Simultac LLC
-   country: USA
-#   photo: /assets/balelbach.jpg
-#   bio: >
-#     Bryce Adelstein Lelbach has spent over a decade developing programming
-#     languages and software libraries. He is the HPC Programming Models Architect at
-#     NVIDIA, where he leads programming language standardization efforts and drives
-#     the technical roadmap for NVIDIA's HPC compilers and libraries. Bryce is
-#     passionate about C++ and is one of the leaders of the C++ community. He is the
-#     chair of INCITS/PL22, the US standards committee for programming languages, and
-#     the Standard C++ Library Evolution group. He also serves as editor for the
-#     INCITS Inclusive Terminology Guidelines. Bryce is the program chair for the
-#     C++Now and CppCon conferences. On the C++ Committee, he has personally worked
-#     on concurrency primitives, parallel algorithms, executors, and multidimensional
-#     arrays. He is one of the founding developers of the HPX parallel runtime
-#     system.
- title: Active Memory Architecture for Many-Task Asynchronous Graph Supercomputing
- abstract: |
+  affiliation: President and Chief Scientist, Simultac LLC
+  country: USA
+  photo: /assets/thomas-sterling.jpg
+  bio: >
+    Dr. Thomas Sterling is President and Chief Scientist of Simultac LLC. Since
+    receiving his Ph.D from MIT in 1984 as a Hertz Fellow Dr. Sterling has engaged
+    in applied research in fields associated with parallel computing system
+    structures, semantics, and operation in industry, government labs, and
+    academia. Dr. Sterling is best known as the "father of Beowulf" for his
+    pioneering research in commodity/Linux cluster computing. He was awarded the
+    Gordon Bell Prize in 1997 with his collaborators for this work. He was the PI
+    of the HTMT Project sponsored by NSF, DARPA, NSA, and NASA to explore advanced
+    technologies and their implication for high-end system architectures. Other
+    research projects included the DARPA DIVA PIM architecture project with
+    USC-ISI, the Cray Cascade Petaflops architecture project sponsored by the DARPA
+    HPCS Program, and the Gilgamesh high-density computing project at NASA JPL. Dr.
+    Sterling is the co-author of six books and holds six patents. He was the
+    recipient of the 2013 Vanguard Award, and in 2014 he was named a fellow of the
+    American Association for the Advancement of Science.
+title: Active Memory Architecture for Many-Task Asynchronous Graph Supercomputing
+abstract: |
     Now, as conventional practices preclude further advances of significance, HPC looks towards
     innovations in architecture, execution models, and programming methods to achieve orders of
     magnitude gains in efficiency, scalability, and productivity through this decade and beyond. The
