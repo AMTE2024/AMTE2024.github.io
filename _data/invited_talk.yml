@@ -1,35 +1,33 @@
-speaker:
-  name: Thomas Sterling, Ph.D
-  courtesy_title: Dr.
-  affiliation: President and Chief Scientist, Simultac LLC
-  country: USA
-  # photo: /assets/eronaghan.jpg
-  # bio: >
-  #   Elliot Ronaghan is the president and chief scientist for the Chapel parallel
-  #   programming language at Hewlett Packard Enterprise. He received his
-  #   Masters's degree in Computer Science and Engineering from the University
-  #   of Washington. His current work focuses on improving the performance of
-  #   user applications through optimizations to Chapel's tasking and
-  #   communication runtime libraries as well as direct optimizations to user
-  #   code.
-title: Active Memory Architecture for Many-Task Asynchronous Graph Supercomputing
-abstract: |
-    Now, as conventional practices preclude further advances of significance, HPC looks towards
-    innovations in architecture, execution models, and programming methods to achieve orders of
-    magnitude gains in efficiency, scalability, and productivity through this decade and beyond. The
-    class of many-task asynchronous computing offers promising new directions at a time when the
-    end of Moore's Law at nano-scale technology eliminates a previous means of exponential
-    growth. This presentation introduces Active Memory Architecture (AMA), a memory-centric
-    structure and non von Neumann semantics for parallel execution of time-varying graph-based
-    applications. The wide range of applicable domains include: numeric-intensive problems such
-    as AMR, PIC, and N-body as well as symbolic-computations for data analytics, machine learning,
-    decision making, and machine understanding. AMA is a leap forward in parallel computer
-    architecture. It is based on the ParalleX execution model that is an advanced many-task
-    asynchronous paradigm exploiting runtime information for resource management and task
-    scheduling and replacing the legacy von Neumann architecture with memory-centric structures.
-    Memory latency and memory bandwidth is prioritized rather than FPU utilization. The IARPA
-    AGILE research program is sponsoring the design and analysis of AMA to determine its viability
-    and competitiveness with respect to more conventional strategies. Early analysis suggests that
-    an AMA exascale system with contemporary technologies is achievable in less than 1/10 th the
-    footprint of legacy-derivative computers. Questions by the audience is encouraged throughout
-    the presentation.
+# speaker:
+#   name: Elliot Ronaghan
+# #   courtesy_title: null
+#   affiliation: HPE
+#   country: USA
+#   photo: /assets/eronaghan.jpg
+#   bio: >
+#     Elliot Ronaghan is the lead performance engineer for the Chapel parallel
+#     programming language at Hewlett Packard Enterprise. He received his
+#     Masters's degree in Computer Science and Engineering from the University
+#     of Washington. His current work focuses on improving the performance of
+#     user applications through optimizations to Chapel's tasking and
+#     communication runtime libraries as well as direct optimizations to user
+#     code.
+# title: Asynchronous Task-Based Aggregated Communication in Chapel
+# abstract: |
+#     Chapel is a parallel programming language that supports general-purpose
+#     asynchronous task-parallelism, either locally on a single node or
+#     distributed across multiple nodes of a cluster or supercomputer. In this
+#     talk, I’ll introduce Chapel’s features for creating tasks and provide an
+#     overview of how those features map down to Chapel's runtime tasking layer.
+#     I’ll also demonstrate a key case where we’ve leveraged asynchronous
+#     tasking to implement aggregated communications in an efficient, but
+#     high-level user-level library.
+
+#     Chapel's parallel and distributed features make it easy to write compact
+#     and straightforward aggregators and the tasking-based runtime provides
+#     trivial overlap of communication and computation, which enables high
+#     performance. We have seen performance compete with and even exceed highly
+#     tuned aggregation libraries written in SHMEM. This talk will show direct
+#     comparisons to the Bale Exstack and Conveyors aggregation libraries up to
+#     512 nodes (~18K cores) on a Cray XC and performance results for a flagship
+#     user application on up to 576 nodes (~74K cores) of an HPE Apollo system.

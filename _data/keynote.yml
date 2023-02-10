@@ -1,7 +1,7 @@
  speaker:
-   name: Thomas Sterling
+   name: Thomas Sterling, Ph.D
 #   courtesy_title: null
-   affiliation: Indiana University Bloomington
+   affiliation: President and Chief Scientist, Simultac LLC
    country: USA
 #   photo: /assets/balelbach.jpg
 #   bio: >
@@ -17,28 +17,24 @@
 #     on concurrency primitives, parallel algorithms, executors, and multidimensional
 #     arrays. He is one of the founding developers of the HPX parallel runtime
 #     system.
- title: TBA
-# abstract: |
-#     Imagine writing parallel code that can run on any platform - CPUs, GPUs,
-#     DPUs, specialized accelerators, etc - without any language or vendor
-#     extensions, external libraries, or special compilation tools. It's no longer
-#     just a dream - you can do it today in Standard C++!
-
-#     Parallelism is increasingly common in software, from supercomputer
-#     simulations to mobile applications. But writing parallel code is increasingly
-#     challenging due to an explosion of diversity in hardware, a trend that's likely
-#     to continue into the future. To meet this challenge, the C++ Committee has
-#     developed C++ Standard Parallelism, a parallel programming model for Standard
-#     C++ that is portable to all platforms, from your smartwatch to your
-#     supercomputer, and delivers reasonable performance and efficiency for most use
-#     cases.
-
-#     Our vision of C++ Standard Parallelism consists of three key components:
-
-#     * Common parallel algorithms that dispatch to vendor-optimized parallel libraries
-#     * Tools to write your own parallel algorithms that run anywhere.
-#     * Mechanisms for composing parallel invocations of algorithms into task graphs.
-
-#     In this talk, we'll dive into the roadmap for C++ Standard Parallelism -
-#     we'll discuss what we already have that you can use today, what's coming down
-#     the line, and where the future may lead us.
+ title: Active Memory Architecture for Many-Task Asynchronous Graph Supercomputing
+ abstract: |
+    Now, as conventional practices preclude further advances of significance, HPC looks towards
+    innovations in architecture, execution models, and programming methods to achieve orders of
+    magnitude gains in efficiency, scalability, and productivity through this decade and beyond. The
+    class of many-task asynchronous computing offers promising new directions at a time when the
+    end of Moore's Law at nano-scale technology eliminates a previous means of exponential
+    growth. This presentation introduces Active Memory Architecture (AMA), a memory-centric
+    structure and non von Neumann semantics for parallel execution of time-varying graph-based
+    applications. The wide range of applicable domains include: numeric-intensive problems such
+    as AMR, PIC, and N-body as well as symbolic-computations for data analytics, machine learning,
+    decision making, and machine understanding. AMA is a leap forward in parallel computer
+    architecture. It is based on the ParalleX execution model that is an advanced many-task
+    asynchronous paradigm exploiting runtime information for resource management and task
+    scheduling and replacing the legacy von Neumann architecture with memory-centric structures.
+    Memory latency and memory bandwidth is prioritized rather than FPU utilization. The IARPA
+    AGILE research program is sponsoring the design and analysis of AMA to determine its viability
+    and competitiveness with respect to more conventional strategies. Early analysis suggests that
+    an AMA exascale system with contemporary technologies is achievable in less than 1/10 th the
+    footprint of legacy-derivative computers. Questions by the audience is encouraged throughout
+    the presentation.
