@@ -4,16 +4,17 @@ layout: default
 
 # SN Computer Science
 
-![Springer Nature](assets/springernature_cs.jpeg)
+![Springer Nature](assets/springernature_cs.jpg)
 
-Home page: <https://www.springer.com/journal/42979>
+## Topical Issue Details
+* Journal: SN Computer Science
+* Website: <https://www.springer.com/journal/42979>
+* Submission deadline: November 1, 2023
 
-Submission deadline is November 1st
+## Submission Guidelines
+Please refer to the [Submission Guidelines](https://www.springer.com/journal/42979/submission-guidelines?IFA.) for detailed information on submitting your work to the SN Computer Science Conference.
 
-Here is the link to our submission portal–Editorial Manager and "Instructions for Authors" for your easy reference.
-<https://www.editorialmanager.com/sncs/default2.aspx>
-
-Submission Guidelines: <https://www.springer.com/journal/42979/submission-guidelines?IFA.>
+## Submission Portal
 
 <!-- Inline CSS for the LaTeX symbol -->
 <style>
@@ -35,4 +36,7 @@ Submission Guidelines: <https://www.springer.com/journal/42979/submission-guidel
 }
 </style>
 
-You can submit the manuscript in any of these formats – Word or [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>](https://www.springernature.com/gp/authors/campaigns/latex-author-support).
+To submit your work, please visit the [Editorial Manager Submission Portal](https://www.editorialmanager.com/sncs/default2.aspx). You can submit your manuscript in Word or [<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>](https://www.springernature.com/gp/authors/campaigns/latex-author-support) format, according to your preference.
+
+## Instructions for Authors
+For further information on submitting your manuscript, please refer to the [Instructions for Authors provided by Springer Nature](https://www.editorialmanager.com/sncs/default2.aspx).
