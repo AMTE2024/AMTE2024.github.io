@@ -35,7 +35,7 @@ speaker:
     on the basics of version control with git, modern Fortran basics,
     software design patterns in Fortran, and modern software development
     practices (i.e. unit testing and continuous integration) with Fortran.
-title: Asynchronous Task-Based Aggregated Communication in Chapel
+title: Framework for Extensible, Asynchronous Task Scheduling (FEATS) in Fortran
 abstract: |
     Most parallel scientific programs contain compiler
     directives
