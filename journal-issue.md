@@ -29,7 +29,6 @@ To submit your work, please visit the [Editorial Manager Submission Portal](http
 
 For further information on submitting your manuscript, please refer to the [Instructions for Authors provided by Springer Nature](https://www.editorialmanager.com/sncs/default2.aspx).
 
-## Submission Portal
 
 <!-- Inline CSS for the LaTeX symbol -->
 <style>
