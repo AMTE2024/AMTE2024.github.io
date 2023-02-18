@@ -72,3 +72,6 @@ program:
   - name: Brad Chamberlain
     affiliation: HPE
     country: USA
+  - name: Sumathi Lakshmiranganatha
+    affiliation: Los Alamos National Laboratory
+    country: USA
