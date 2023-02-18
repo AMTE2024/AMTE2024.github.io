@@ -69,3 +69,6 @@ program:
   - name: Weile Wei
     affiliation: Lawrence Berkeley National Laboratory
     country: USA
+  - name: Brad Chamberlain
+    affiliation: HPE
+    country: USA
