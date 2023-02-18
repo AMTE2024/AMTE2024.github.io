@@ -2,9 +2,10 @@
 layout: default
 ---
 
+<a href="https://www.springer.com/journal/42979" rel="some text"><img src="assets/springernature_cs.jpg" alt="" /></a>
+
 # SN Computer Science
 
-![Springer Nature](assets/springernature_cs.jpg)
 
 ## Topical Issue Details
 * Journal: SN Computer Science
