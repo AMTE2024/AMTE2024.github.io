@@ -6,7 +6,7 @@ layout: default
 
 # Topical Issue: Applications and Frameworks using the Asynchronous Many Task Paradigm
 
-We are please to announce the topical issue “Applications and Frameworks using the Asynchronous Many Task Paradigm” to be published in [SN Computer Science](https://www.springer.com/journal/42979). All accepted workshop papers, are invited to submit a extended paper with around 40% new conntent to the topical issue. 
+We are pleased to announce the topical issue “Applications and Frameworks using the Asynchronous Many Task Paradigm” to be published in [SN Computer Science](https://www.springer.com/journal/42979). All accepted workshop papers, are invited to submit a extended paper with around 40% new conntent to the topical issue. 
 
 ## Details
 
