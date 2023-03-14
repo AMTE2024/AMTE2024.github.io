@@ -26,10 +26,10 @@ All submitted manuscripts will be checked for originality by [iThenticate](https
 
 For questions or comments regarding the call for papers, please contact **REDACTED**{: #cntc title="workshop contact address"}.
 
-<script>
+<script type="text/javascript">
 var d = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@_-+.";
-s = "FU4SEFKNYg9osdgvuCAuLFX"
+var s = "FU4SEFKOYg9osdgvuCAuLFX"
 var r = ""
-for (var i = 0; i < s.length; i++) r += d.charAt(((((d.indexOf(s.charAt(i)) - (3 * i + 31)) % d.length) + d.length) % d.length));
+for (var i = 0; i < s.length; i++) r += d.charAt((((d.indexOf(s.charAt(i)) - (3 * i + 31)) + 3 * d.length) % d.length));
 document.getElementById("cntc").textContent = r;
 </script>
