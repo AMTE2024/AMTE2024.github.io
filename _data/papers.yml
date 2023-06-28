@@ -8,7 +8,7 @@
 An increasingly popular approach to code parallel applications is Asynchronous Many-Task (AMT) programming. Here, programmers identify parallel subcomputations, called tasks, and a runtime system assigns the tasks to worker threads. Since tasks have clearly defined interfaces, the runtime can automatically extract and save their interface data. This approach, called task-level checkpointing (TC), combines the respective strengths of C/R and application-level checkpointing.
 
 AMTs come in many variants, and so far TC has only been applied to a few, rather simple variants. This paper considers TC for a different AMT variant: nested fork-join programs (NFJ) that run on clusters of multicore nodes under work stealing. We present the first TC implementation for this setting and evaluate it with three benchmarks and up to 1280 workers. We observe an execution time overhead of around 28 % and neglectable recovery costs."
-  - title: Quantifying Overheads in Charm++ and HPX using Task Bench
+  - title: Making Uintah Performance Portable for Department of Energy Exascale Testbeds
     id: 9
     authors:
       - John Holmen
