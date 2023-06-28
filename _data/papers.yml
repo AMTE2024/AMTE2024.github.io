@@ -1,11 +1,13 @@
-#  - title: A Portable and Heterogeneous LU Factorization on IRIS
-#    id: 198
-#    authors:
-#      - Pedro Valero-Lara
-#      - Jungwon Kim
-#      - Jeffrey Vetter
-#    abstract: "In this work, we evaluate the use of the IRIS programming model to improve
-# performance portability for heterogeneous systems using LU matrix factorization as motivating test case. Using IRIS we are able to separate the definition of the algorithm, using tasks + dependencies, from the tuning. This reduces the efforts for performance portability on heterogeneous systems considerably. One single IRIS codes can use different settings depending on the hardware features. LU factorization is considered one of the most important numerical linear algebra operations used in multiple HPC and scientific applications. We evaluate different configurations on two different heterogeneous systems achieving important speedups w.r.t. the reference code with minimal changes to the source code."
+  - title: Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing
+    id: 17
+    authors:
+      - Lukas Reitz
+      - Claudia Fohry
+    abstract: "Recent Exascale supercomputers consist of millions of processing units, and this number is still growing. Therefore, hardware failures, such as permanent node failures, become increasingly apparent. They can be tolerated with techniques such as Checkpoint/Restart (C/R), which saves the whole application state transparently, and, in case of failure, restarts the application from the saved state; or application-level checkpointing, which saves only relevant data via explicit calls in the program. C/R has the advantage of requiring no additional programming expense, whereas application-level checkpointing is more efficient and allows to continue running the application on the intact resources (localized shrinking recovery).
+
+An increasingly popular approach to code parallel applications is Asynchronous Many-Task (AMT) programming. Here, programmers identify parallel subcomputations, called tasks, and a runtime system assigns the tasks to worker threads. Since tasks have clearly defined interfaces, the runtime can automatically extract and save their interface data. This approach, called task-level checkpointing (TC), combines the respective strengths of C/R and application-level checkpointing.
+
+AMTs come in many variants, and so far TC has only been applied to a few, rather simple variants. This paper considers TC for a different AMT variant: nested fork-join programs (NFJ) that run on clusters of multicore nodes under work stealing. We present the first TC implementation for this setting and evaluate it with three benchmarks and up to 1280 workers. We observe an execution time overhead of around 28 % and neglectable recovery costs."
 #  - title: Quantifying Overheads in Charm++ and HPX using Task Bench
 #    id: 155
 #    authors:
