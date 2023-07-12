@@ -2,34 +2,35 @@
 layout: default
 ---
 
-TBA
-
-<!-- 
-
 # Program schedule
 
-Date: Tuesday August 23, 2023
+Date: Monday August 28, 2023
+
+
+Chair: Patrick Diehl
+
+* 08:55 - 09:00, Opening remarks
+* 09:00 - 10:00, [Keynote Talk](https://amte2023.stellar-group.org/keynote) (Thomas Sterling, Simultac LLC)
+* 10:00 - 10:30, Making Uintah Performance Portable for Department of Energy Exascale Testbeds (John Holmen, ORNL)
+
+
+* 10:30 - 11:00, Coffee Break
 
 
 Chair: Steven R. Brandt
 
-* 14:00 - 14:05, Opening remarks
-* 14:05 - 15:05, [Keynote Talk](https://amte2023.stellar-group.org/keynote) (Bryce Adelstein Lelbach, NVIDIA)
-* 15:05 - 15:25, Paper 198: A Portable and Heterogeneous LU Factorization on IRIS (Pedro Valero-Lara, ORNL)
+* 11:00 - 12:00, [Invited talk](https://amte2023.stellar-group.org/invited-talk) (Brad Richardson, Berkeley Lab)
+* 12:00 - 12:30, Malleable APGAS Programs and their Support in Batch Job Schedulers (Patrick Finnerty, Kobe University) 
 
+* 12:30 - 14:00, Lunch Break
 
-* 15:30 - 16:00, Afternoon break
+Chair: Steven R. Brandt
 
-
-Chair: Bryce Adelstein Lelbach
-
-* 16:00 - 16:20, Paper 155: Quantifying Overheads in Charm++ and HPX using Task Bench (Nanmiao Wu, LSU)
-* 16:20 - 17:20, [Invited talk](https://amte2023.stellar-group.org/invited-talk) (Elliot Ronaghan, HPE)
-* 17:20 - 17:30, General discussion
+* 14:00 - 14:30, Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing (Lukas Reitz, University of Kassel)
+* 14:30 - 15:00, Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java (Patrick Diehl, LSU)
 
 
 All times are in Western European Time ([GMT+1](https://24timezones.com/Glasgow/time)).
 
-The complete EuroPar workshop program is available at [https://2023.euro-par.org/program/workshops-and-tutorial/](https://2023.euro-par.org/program/workshops-and-tutorial/). 
+The complete EuroPar program is available at [https://2023.euro-par.org/program/](https://2023.euro-par.org/program/). 
 
--->
