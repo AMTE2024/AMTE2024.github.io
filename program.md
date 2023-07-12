@@ -30,7 +30,7 @@ Chair: Steven R. Brandt
 * 14:30 - 15:00, Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java (Patrick Diehl, LSU)
 
 
-All times are in Western European Time ([GMT+1](https://24timezones.com/Glasgow/time)).
+All times are in Western European Time ([GMT+3](https://www.timeanddate.com/worldclock/cyprus/limassol)).
 
 The complete EuroPar program is available at [https://2023.euro-par.org/program/](https://2023.euro-par.org/program/). 
 
