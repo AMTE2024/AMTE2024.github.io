@@ -1,43 +1,65 @@
 speaker:
-  name: Thomas Sterling, Ph.D
+  name: Brad Richardson
 #   courtesy_title: null
-  affiliation: President and Chief Scientist, Simultac LLC
+  affiliation: Berkeley Lab
   country: USA
-  photo: /assets/thomas-sterling.jpg
+  photo: /assets/brad_richardson.jpg
   bio: >
-    Dr. Thomas Sterling is President and Chief Scientist of Simultac LLC. Since
-    receiving his Ph.D from MIT in 1984 as a Hertz Fellow Dr. Sterling has engaged
-    in applied research in fields associated with parallel computing system
-    structures, semantics, and operation in industry, government labs, and
-    academia. Dr. Sterling is best known as the "father of Beowulf" for his
-    pioneering research in commodity/Linux cluster computing. He was awarded the
-    Gordon Bell Prize in 1997 with his collaborators for this work. He was the PI
-    of the HTMT Project sponsored by NSF, DARPA, NSA, and NASA to explore advanced
-    technologies and their implication for high-end system architectures. Other
-    research projects included the DARPA DIVA PIM architecture project with
-    USC-ISI, the Cray Cascade Petaflops architecture project sponsored by the DARPA
-    HPCS Program, and the Gilgamesh high-density computing project at NASA JPL. Dr.
-    Sterling is the co-author of six books and holds six patents. He was the
-    recipient of the 2013 Vanguard Award, and in 2014 he was named a fellow of the
-    American Association for the Advancement of Science.
-title: Active Memory Architecture for Many-Task Asynchronous Graph Supercomputing
+    Brad has a variety of experience and qualifications related to
+    scientific and engineering software development and maintenance. He has
+    been involved in the development and/or maintenance of multiple,
+    highly-complex, safety-related, legacy Fortran software packages used
+    in the nuclear industry. This experience is useful for recognizing and
+    identifying common patterns found in legacy scientific and engineering
+    software while trying to understand and “reverse engineer” such systems
+    in the effort of code modernization.
+
+    Brad has also been involved in the development of multiple newer
+    Fortran software packages, making use of modern software development
+    tools and techniques. Most notably are fpm - The Fortran Package
+    Manager and build system, Vegetables - a Fortran unit testing
+    framework, and jsonff - a Fortran interface to the JSON data format.
+    This experience is useful for configuring and applying modern software
+    development tools and techniques. It is also useful in recognizing the
+    types of modifications that can be made to legacy software and what
+    their costs and benefits would be.
+
+    Brad has experience in quality assurance, and specifically in the area
+    of software quality assurance, having written software quality
+    assurance procedures and plans for previous employers and projects. He
+    has experience applying modern software development tools and
+    techniques to improve software quality, including in the context of
+    Nuclear Quality Assurance.
+
+    Brad has taught multiple classes, and offers online courses, including
+    on the basics of version control with git, modern Fortran basics,
+    software design patterns in Fortran, and modern software development
+    practices (i.e. unit testing and continuous integration) with Fortran.
+title: Framework for Extensible, Asynchronous Task Scheduling (FEATS) in Fortran
 abstract: |
-    Now, as conventional practices preclude further advances of significance, HPC looks towards
-    innovations in architecture, execution models, and programming methods to achieve orders of
-    magnitude gains in efficiency, scalability, and productivity through this decade and beyond. The
-    class of many-task asynchronous computing offers promising new directions at a time when the
-    end of Moore's Law at nano-scale technology eliminates a previous means of exponential
-    growth. This presentation introduces Active Memory Architecture (AMA), a memory-centric
-    structure and non-von Neumann semantics for parallel execution of time-varying graph-based
-    applications. The wide range of applicable domains include: numeric-intensive problems such
-    as AMR, PIC, and N-body, as well as symbolic-computations for data analytics, machine learning,
-    decision making, and machine understanding. AMA is a leap forward in parallel computer
-    architecture. It is based on the ParalleX execution model, an advanced many-task
-    asynchronous paradigm exploiting runtime information for resource management and task
-    scheduling and replacing the legacy von Neumann architecture with memory-centric structures.
-    Memory latency and memory bandwidth are prioritized rather than FPU utilization. The IARPA
-    AGILE research program is sponsoring the design and analysis of AMA to determine its viability
-    and competitiveness with respect to more conventional strategies. Early analysis suggests that
-    an AMA exascale system with contemporary technologies is achievable in less than 1/10 th the
-    footprint of legacy-derivative computers. Questions by the audience is encouraged throughout
-    the presentation.
+    Most parallel scientific programs contain compiler
+    directives
+    (pragmas) such as those from OpenMP, explicit calls to runtime li-
+    brary procedures such as those implementing the Message Passing In-
+    terface (MPI), or compiler-specific language extensions such as those
+    provided by CUDA. By contrast, the recent Fortran standards em-
+    power developers to express parallel algorithms without directly refer-
+    encing lower-level parallel programming models. Fortran’s parallel
+    features place the language within the Partitioned Global Address Space
+    (PGAS) class of programming models. When writing programs that ex-
+    ploit data-parallelism, application developers often find it
+    straightfor-
+    ward to develop custom parallel algorithms. Problems involving complex,
+    heterogeneous, staged calculations, however, pose much greater chal-
+    lenges. Such applications require careful coordination of tasks in a
+    man-
+    ner that respects dependencies prescribed by a directed acyclic graph.
+    When rolling one’s own solution proves difficult, extending a customiz-
+    able framework becomes attractive. The paper presents the design,
+    imple-
+    mentation, and use of the Framework for Extensible Asynchronous Task
+    Scheduling (FEATS), which we believe to be the first task-scheduling
+    tool written in modern Fortran. We describe the benefits and compro-
+    mises associated with choosing Fortran as the implementation language,
+    and we propose ways in which future Fortran standards can best support
+    the use case in this paper.
