@@ -18,7 +18,7 @@ Chair: Patrick Diehl
 
 Chair: Steven R. Brandt
 
-* 11:00 - 11:40, [Invited talk](https://amte2023.stellar-group.org/invited-talk) (TBA)
+* 11:00 - 11:40, [Invited talk](https://amte2023.stellar-group.org/invited-talk) (Jeff Hammond, NVIDIA)
 * 11:40 - 12:05, Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing (Lukas Reitz, University of Kassel)
 * 12:05 - 12:30, Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java (Patrick Diehl, LSU)
 
