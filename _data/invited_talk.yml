@@ -4,7 +4,7 @@ speaker:
   country: Finland
   photo: /assets/jeff_hammond.jpg
   bio: |
-    Geoff Hammond is a Principal Programming Models Architect at NVIDIA responsible for Open standards for parallel programming and ARM HPC software. Prior joining NVIDIA, he worked at Intel Corporation, Argonne National Laboratory, and Pacific Northwest National Laboratory. He received his PhD from University of Chicago.
+    Jeff Hammond is a Principal Programming Models Architect at NVIDIA responsible for Open standards for parallel programming and ARM HPC software. Prior joining NVIDIA, he worked at Intel Corporation, Argonne National Laboratory, and Pacific Northwest National Laboratory. He received his PhD from University of Chicago.
 
 title: Subtle Asynchrony
 abstract: |

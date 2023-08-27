@@ -22,7 +22,7 @@ Chair: Steven R. Brandt
 * 11:40 - 12:05, Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing (Lukas Reitz, University of Kassel)
 * 12:05 - 12:30, Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java (Patrick Diehl, LSU)
 
-All times are in Western European Time ([GMT+3](https://www.timeanddate.com/worldclock/cyprus/limassol)).
+All times are in Eastern European Summer Time ([GMT+3](https://www.timeanddate.com/worldclock/cyprus/limassol)).
 
 The complete EuroPar program is available at [https://2023.euro-par.org/program/](https://2023.euro-par.org/program/). 
 
