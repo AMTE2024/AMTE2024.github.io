@@ -1,0 +1,7 @@
+speaker:
+  name: Jeff Hammond
+  affiliation: NVIDIA
+  country: USA
+title: Subtle Asynchrony
+abstract: |
+  I will discuss subtle asynchrony in two contexts.  First, how do we bring asynchronous task parallelism to the Fortran language, without relying on threads or related concepts?  Second, I will describe how asynchronous task parallelism emerges in NWChem via overdecomposition, without programmers thinking about tasks.  This example demonstrates that many of the principles of asynchronous many task execution can be achieved without specialized runtime systems or programming abstractions.
