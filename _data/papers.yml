@@ -32,7 +32,7 @@ Asynchronous Many-Task (AMT) programming presents a promising alternative. Compu
 
 In this paper, we propose an extension to an existing AMT system, namely APGAS for Java, that provides easy-to-use malleability. More specifically, programmers enable application malleability with only minimal code additions, thanks to the simple abstractions we provide. Runtime adjustments, such as process initialization and termination, are automatically managed.
 
-We demonstrate the ease of integration between our extension and future batch job schedulers through the implementation of a simplistic malleable batch job scheduler. Additionally, we validate our extension through the adaption of a load balancing library handling multiple benchmarks. Finally, we show that even a simplistic scheduling strategy for malleable applications improves resource utilization, job throughput, and overall job response time."
+We demonstrate the ease of integration between our extension and future batch job schedulers through the implementation of a simplistic malleable batch job scheduler. Additionally, we validate our extension through the adaption of a load balancing library handling multiple benchmarks. Finally, we show that even a simplistic scheduling strategy for malleable applications improves resource utilization, job throughput, and overall job response time. [Slides](https://zenodo.org/record/8287393)"
   - title: Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java
     id: 13
     authors:
