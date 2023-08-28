@@ -23,6 +23,11 @@ layout: default
 
 {{ talk.abstract }}
 
+
+### Materials
+
+* [Slides](https://de.slideshare.net/PatrickDiehl3/framework-for-extensible-asynchronous-task-scheduling-feats-in-fortran)
+
 {% endif %}
 
 {% else %}
