@@ -52,4 +52,6 @@ of the various platforms and explore the performance of this model code
 on different computing architectures: Intel, AMD, and ARM64FX. As a
 result, Python was the slowest of the set we compared. Java, Go, Swift,
 and Julia were the intermediate performers. The higher performing plat-
-forms were C++, Rust, Chapel, Charm++, and HPX."
+forms were C++, Rust, Chapel, Charm++, and HPX. 
+* [Slides](https://de.slideshare.net/PatrickDiehl3/benchmarking-the-parallel-1d-heat-equation-solver-in-chapel-charm-c-hpx-go-julia-python-rust-swift-and-java)
+"
