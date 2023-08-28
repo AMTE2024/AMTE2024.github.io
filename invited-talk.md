@@ -23,7 +23,9 @@ layout: default
 
 {{ talk.abstract }}
 
-<!-- * [Slides](/assets/slides/ChapelForAMTE2022.pdf) -->
+### Materials
+
+* [Slides](https://de.slideshare.net/PatrickDiehl3/subtle-asynchrony-by-jeff-hammond)
 
 
 {% endif %}
