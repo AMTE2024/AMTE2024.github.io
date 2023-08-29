@@ -26,7 +26,7 @@ layout: default
 ### Materials
 
 * [Slides](https://de.slideshare.net/PatrickDiehl3/subtle-asynchrony-by-jeff-hammond)
-
+* [Recording](https://youtu.be/OjANeg6ZkTs)
 
 {% endif %}
 
