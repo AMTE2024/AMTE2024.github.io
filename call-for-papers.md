@@ -11,7 +11,7 @@ This workshop explores the advantages of task-based programming on modern and fu
 
 ## Important dates
 
-* Submission deadline: May 5, 202 (Extended to ~~May 19th~~ May 21)
+* Submission deadline: May 5, 2023 (Extended to ~~May 19th~~ 2023)
 * Acceptance Notification: June 19, 2023
 * Revisions of accepted papers due: July 2, 2023
 
