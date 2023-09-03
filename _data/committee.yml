@@ -60,9 +60,6 @@ program:
   - name: Peter Thoman
     affiliation: University of Innsbruck
     country: Austria
-  - name: Gerald Baumgartner
-    affiliation: Louisiana State University
-    country: USA
   - name: Bryce Adelstein Lelbach
     affiliation: Nvidia
     country: USA
