@@ -1,11 +1,9 @@
-speaker:
-  name: Jeff Hammond
-  affiliation: NVIDIA
-  country: Finland
-  photo: /assets/jeff_hammond.jpg
-  bio: |
-    Jeff Hammond is a Principal Programming Models Architect at NVIDIA responsible for Open standards for parallel programming and ARM HPC software. Prior joining NVIDIA, he worked at Intel Corporation, Argonne National Laboratory, and Pacific Northwest National Laboratory. He received his PhD from University of Chicago.
+#speaker:
+#  name: 
+#  affiliation: 
+#  country:
+#  photo: /assets/jeff_hammond.jpg
+#  bio: |
 
-title: Subtle Asynchrony
-abstract: |
-  I will discuss subtle asynchrony in two contexts.  First, how do we bring asynchronous task parallelism to the Fortran language, without relying on threads or related concepts?  Second, I will describe how asynchronous task parallelism emerges in NWChem via overdecomposition, without programmers thinking about tasks.  This example demonstrates that many of the principles of asynchronous many task execution can be achieved without specialized runtime systems or programming abstractions.
+#title:
+#abstract: 
