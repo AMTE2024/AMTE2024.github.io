@@ -11,9 +11,9 @@ This workshop explores the advantages of task-based programming on modern and fu
 
 ## Important dates
 
-* Submission deadline: May 5, 2023 (Extended to ~~May 19th~~ May 20th 2023)
-* Acceptance Notification: June 19, 2023
-* Revisions of accepted papers due: July 2, 2023
+* Submission deadline: TBA
+* Acceptance Notification: TBA
+* Revisions of accepted papers due: TBA
 
 ## Submissions
 Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2023workshops). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and between ten and twelve pages, including text, the references section, appendices, and figures.
