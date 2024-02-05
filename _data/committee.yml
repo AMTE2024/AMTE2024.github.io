@@ -81,3 +81,12 @@ program:
   - name: Tianyi Zhang
     affiliation: Amazon Web Service
     country: USA
+  - name: Markus Rampp
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany
+  - name: Patrica Grubel
+    affiliation: Los Alamos National Laboratory
+    country: USA
+  - name: Joseph Schuchart
+    affiliation: University of Tennessee, Knoxville
+    country: USA
