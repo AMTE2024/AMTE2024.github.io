@@ -93,3 +93,6 @@ program:
   - name: Ben Bergen
     affiliation: Los Alamos National Laboratory
     country: USA
+  - name: Markus Rampp
+    affiliation: Max Planck Computing & Data Facility
+    country: Germany
