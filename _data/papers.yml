@@ -1,56 +1,6 @@
-  - title: Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing
-    id: 17
-    authors:
-      - Lukas Reitz
-      - Claudia Fohry
-    abstract: "Recent Exascale supercomputers consist of millions of processing units, and this number is still growing. Therefore, hardware failures, such as permanent node failures, become increasingly apparent. They can be tolerated with techniques such as Checkpoint/Restart (C/R), which saves the whole application state transparently, and, in case of failure, restarts the application from the saved state; or application-level checkpointing, which saves only relevant data via explicit calls in the program. C/R has the advantage of requiring no additional programming expense, whereas application-level checkpointing is more efficient and allows to continue running the application on the intact resources (localized shrinking recovery).
-
-An increasingly popular approach to code parallel applications is Asynchronous Many-Task (AMT) programming. Here, programmers identify parallel subcomputations, called tasks, and a runtime system assigns the tasks to worker threads. Since tasks have clearly defined interfaces, the runtime can automatically extract and save their interface data. This approach, called task-level checkpointing (TC), combines the respective strengths of C/R and application-level checkpointing.
-
-AMTs come in many variants, and so far TC has only been applied to a few, rather simple variants. This paper considers TC for a different AMT variant: nested fork-join programs (NFJ) that run on clusters of multicore nodes under work stealing. We present the first TC implementation for this setting and evaluate it with three benchmarks and up to 1280 workers. We observe an execution time overhead of around 28 % and neglectable recovery costs."
-  - title: Making Uintah Performance Portable for Department of Energy Exascale Testbeds
-    id: 9
-    authors:
-      - John Holmen
-      - Marta Garcia
-      - Abhishek Bagusetty
-      - Allen Sanderson
-      - Martin Berzins
-    abstract: "To help ease ports to forthcoming Department of Energy (DOE) exascale systems, testbeds have been made available to select users. These testbeds are helpful for preparing codes to run on the same hardware and similar software as in their respective exascale systems. This paper describes how the Uintah Computational Framework, an open-source asynchronous many-task (AMT) runtime system, has been modified to be performance portable across the DOE Crusher, DOE Polaris, and DOE Sunspot testbeds in preparation for portable simulations across the exascale DOE Frontier and DOE Aurora systems. The Crusher, Polaris, and Sunspot testbeds feature the AMD MI250X, NVIDIA A100, and Intel PVC GPUs, respectively. This performance portability has been made possible by extending Uintah's intermediate portability layer to additionally support the Kokkos::HIP, Kokkos::OpenMPTarget, and Kokkos::SYCL back-ends. This paper also describes notable updates to Uintah's support for Kokkos, which were required to make this extension possible. Results are shown for a challenging radiative heat transfer calculation, central to the University of Utah's predictive boiler simulations. These results demonstrate single-source portability across AMD-, NVIDIA-, and Intel-based GPUs using various Kokkos back-ends."
-  - title: Malleable APGAS Programs and their Support in Batch Job Schedulers
-    id: 39
-    authors:
-      - Patrick	Finnerty
-      - Leo Takaoka
-      - Takuma Kanzaki
-      - Jonas Posner
-    abstract: "Malleability -- the ability of applications to dynamically adjust their resource allocations at runtime -- presents great potential for enhancing the efficiency and resource utilization of modern supercomputers. However, applications are rarely capable of growing and shrinking their number of nodes at runtime, and batch job schedulers provide only rudimentary support for these features.
-
-While numerous approaches have been proposed for enabling application malleability, these typically concentrate on iterative computations and require complex code modifications. This amplifies the challenges for programmers, who already wrestle with the complexity of traditional MPI inter-node programming.
-
-Asynchronous Many-Task (AMT) programming presents a promising alternative. Computations are split into many fine-grained tasks, which are processed by workers. This way, AMT enables transparent task relocation via the runtime system, thus offering great potential for efficient malleability.
-
-In this paper, we propose an extension to an existing AMT system, namely APGAS for Java, that provides easy-to-use malleability. More specifically, programmers enable application malleability with only minimal code additions, thanks to the simple abstractions we provide. Runtime adjustments, such as process initialization and termination, are automatically managed.
-
-We demonstrate the ease of integration between our extension and future batch job schedulers through the implementation of a simplistic malleable batch job scheduler. Additionally, we validate our extension through the adaption of a load balancing library handling multiple benchmarks. Finally, we show that even a simplistic scheduling strategy for malleable applications improves resource utilization, job throughput, and overall job response time. [Slides](https://zenodo.org/record/8287393)"
-  - title: Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java
-    id: 13
-    authors:
-      - Patrick Diehl
-      - Steven Brandt
-      - Max Morris
-      - Hartmut Kaiser
-    abstract: "Many scientific high performance codes that simulate e.g.
-black holes, coastal waves, climate and weather, etc. rely on block-structured
-meshes and use finite differencing methods to iteratively solve the ap-
-propriate systems of differential equations. In this paper we investigate
-implementations of an extremely simple simulation of this type using var-
-ious programming systems and languages. We focus on a shared memory,
-parallelized algorithm that simulates a 1D heat diffusion using asyn-
-chronous queues for the ghost zone exchange. We discuss the advantages
-of the various platforms and explore the performance of this model code
-on different computing architectures: Intel, AMD, and ARM64FX. As a
-result, Python was the slowest of the set we compared. Java, Go, Swift,
-and Julia were the intermediate performers. The higher performing plat-
-forms were C++, Rust, Chapel, Charm++, and HPX. [Slides](https://de.slideshare.net/PatrickDiehl3/benchmarking-the-parallel-1d-heat-equation-solver-in-chapel-charm-c-hpx-go-julia-python-rust-swift-and-java)
-"
+#- title: Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing
+#    id: 17
+#    authors:
+#      - Lukas Reitz
+#      - Claudia Fohry
+#    abstract: "Recent Exascale supercomputers consist of millions of processing units, and this number is still growing. Therefore, hardware failures, such as permanent node failures, become increasingly apparent. They can be tolerated with techniques such as Checkpoint/Restart (C/R), which saves the whole application state transparently, and, in case of failure, restarts the application from the saved state; or application-level checkpointing, which saves only relevant data via explicit calls in the program. C/R has the advantage of requiring no additional programming expense, whereas application-level checkpointing is more efficient and allows to continue running the application on the intact resources (localized shrinking recovery).
