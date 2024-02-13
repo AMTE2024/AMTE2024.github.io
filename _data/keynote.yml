@@ -16,10 +16,10 @@ speaker:
     As he needs something to pad his academic paper up to at least eight pages,
     he usually plays around with various application fields like real-time image
     processing on embedded architectures or HPC on multi-core clusters. He is
-    the co-host of the *C++FRUG Meetup*
-    <https://www.meetup.com/fr-FR/User-Group-Cpp-Francophone/>,
-    president of the C++FRUG Association and co-organizes the *CPPP Conference*
-    <https://cppp.fr/>.
+    the co-host of the [*C++FRUG Meetup*]
+    (https://www.meetup.com/fr-FR/User-Group-Cpp-Francophone/),
+    president of the C++FRUG Association and co-organizes the [*CPPP Conference*]
+    (https://cppp.fr/).
 title: Tools of the Trade Embracing Our Inner Craftsman
 abstract: >
   Designing software tools and libraries represents a critical yet often
@@ -32,3 +32,10 @@ abstract: >
   productivity and software quality. The talk will cover best practices, case
   studies, and methodologies for tool and library design, aiming to inspire
   attendees to embrace their inner craftsman in software development.
+# materials:
+#   - title: Slides
+#     url: https://de.slideshare.net/PatrickDiehl3/framework-for-extensible-asynchronous-task-scheduling-feats-in-fortran
+#   - title: Video
+#     url: https://www.example.com/watch?v=joel_falcou
+#   - title: Code
+#     url: https://www.example.com/joel_falcou_code
