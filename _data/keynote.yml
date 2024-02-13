@@ -1,9 +1,34 @@
-#speaker:
-#  name: 
+speaker:
+  name: Joel Falcou
 #   courtesy_title: null
-#  affiliation:
-#  country:
-#  photo: /assets/brad_richardson.jpg
-#  bio: 
-#title: 
-#abstract: 
+  affiliation: University Paris-Sud, Interdisciplinary Laboratory of Numerical
+    Sciences (LISN)
+  country: France
+  photo: /assets/joel_falcou.jpg
+  bio: >
+    Joel Falcou is an associate professor at the University of Paris-Sud and
+    researcher at the Interdisciplinary Laboratory of Numerical Sciences (LISN)
+    in Orsay, France. He serves as a scientific and training advisor for CODE
+    RECKONS. His research focuses on the design of Embedded Domain Specific
+    Languages for parallel computing on various architectures and developing a
+    formal framework meta-programming analysis.
+
+    As he needs something to pad his academic paper up to at least eight pages,
+    he usually plays around with various application fields like real-time image
+    processing on embedded architectures or HPC on multi-core clusters. He is
+    the co-host of the *C++FRUG Meetup*
+    <https://www.meetup.com/fr-FR/User-Group-Cpp-Francophone/>,
+    president of the C++FRUG Association and co-organizes the *CPPP Conference*
+    <https://cppp.fr/>.
+title: Tools of the Trade Embracing Our Inner Craftsman
+abstract: >
+  Designing software tools and libraries represents a critical yet often
+  overlooked aspect in the field of software engineering. Many prioritize rapid
+  algorithm or application development, overlooking the productivity gains from
+  thoughtful tools and library design. This presentation will argue for a more
+  balanced approach, emphasizing the craftsmanship involved in creating robust,
+  effective software tools. By focusing on the development of specialized,
+  domain-specific tools and libraries, developers can achieve higher
+  productivity and software quality. The talk will cover best practices, case
+  studies, and methodologies for tool and library design, aiming to inspire
+  attendees to embrace their inner craftsman in software development.
