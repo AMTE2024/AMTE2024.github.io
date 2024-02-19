@@ -8,12 +8,11 @@ The next generation of supercomputers will break the exascale barrier, and treme
 This workshop explores the advantages of task-based programming on modern and future HPC systems. It will gather developers, users, and proponents of these models and systems to share experience, discuss how they meet the challenges posed by Exascale system architectures, and explore opportunities for increased performance, robustness, and full-system utilization.
 
 
-
 ## Important dates
 
-* Submission deadline: TBA
-* Acceptance Notification: TBA
-* Revisions of accepted papers due: TBA
+* Submission deadline: May 6th (AOE)
+* Acceptance Notification: June 17th (AOE)
+* Revisions of accepted papers due: July 1st (AOE)
 
 ## Submissions
 Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2023workshops). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and between ten and twelve pages, including text, the references section, appendices, and figures.
