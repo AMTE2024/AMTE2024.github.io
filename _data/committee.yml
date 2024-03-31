@@ -64,7 +64,7 @@ program:
     affiliation: Nvidia
     country: USA
   - name: Weile Wei
-    affiliation: Lawrence Berkeley National Laboratory
+    affiliation: Google
     country: USA
   - name: Brad Chamberlain
     affiliation: HPE
