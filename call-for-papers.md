@@ -10,9 +10,9 @@ This workshop explores the advantages of task-based programming on modern and fu
 
 ## Important dates
 
-* Submission deadline: May 6th (AOE)
-* Acceptance Notification: June 17th (AOE)
-* Revisions of accepted papers due: July 1st (AOE)
+* Submission deadline: May 20th (AOE)
+* Acceptance Notification: June 20th (AOE)
+* Revisions of accepted papers due (Camera-ready): July 1st (AOE)
 
 ## Submissions
 Authors need to submit their work through [EasyChair](https://easychair.org/my/conference?conf=europar2023workshops). Submissions must be in [Springer LNCS format](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and between ten and twelve pages, including text, the references section, appendices, and figures.
