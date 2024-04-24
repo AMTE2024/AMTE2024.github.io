@@ -1,9 +1,15 @@
-#speaker:
-#  name: 
-#  affiliation: 
-#  country:
-#  photo: /assets/jeff_hammond.jpg
-#  bio: |
+speaker:
+  name: Mehdi Goli
+  affiliation: Codeplay
+  country: UK
+  photo: /assets/mehdi_goli.png
+  bio: >
+    Mehdi is VP of AI enablement and R&D, responsible for leading impactful, influential, and innovative research and development projects, ensuring Codeplay remains a leading independent provider of AI and HPC enablement. He joined Codeplay in 2017 as a Senior Software Engineer in AI Parallelisation and he was the Team Lead of Eigen, SYCL-BLAS, and Nvidia backend for Intel oneMKL and oneDNN. Before joining Codeplay, he was a research associate at the University of West of Scotland for 2 years working with Codeplay through Knowledge Transfer Program (KTP) to deliver the VisionCPP framework. Prior to that, he completed his PhD in Parallel Computing at Robert Gordon University, Aberdeen (2015), during which he was a Research Assistant in Parallel Computing at IDEAS Research Institute, working on the ParaPhrase project.
+title: Expressing and Optimizing Task Graphs in Heterogeneous Programming through SYCL
+abstract: >
+  For many compute-intensive problems today, heterogeneous computing is inevitable to meet the demands of these applications. Recent heterogeneous systems often contain multiple different accelerators in addition to the host CPU and leveraging the full computational power of such systems requires the management of complex dependencies between the tasks to overlap computation of independent tasks where possible. Heterogeneous programming is not only about implementing and optimizing kernels - complex heterogeneous applications also require the careful orchestration of multiple computational tasks.
+  Modern heterogeneous programming models such as SYCL therefore not only allow to program a diverse set of accelerators with a single, portable programming model, but through their API also provide powerful facilities to manage task dependencies and parallel execution on multiple accelerators.
 
-#title:
-#abstract: 
+  In SYCL's case, these facilities include explicit event-based synchronization that can also be found in more low-level models such as CUDA or OpenCL. SYCL also comes with mechanisms for automatic dependency management by the runtime implementation. The SYCL buffer and accessor model, which I will introduce in the talk, allows users to easily declare access requirements for data, while the runtime implementation automatically constructs the directed-acyclic graph of task dependencies in the background. This automatic tracking of dependencies between tasks not only relieves the user from the error-prone tasks of manually inserting synchronization into their code, but also provides opportunity for optimization of the task graph.
+
+  In particular when offloading a series of tasks to an accelerator, there is potential for optimization by reducing the launch overhead or by leveraging faster memories for data exchange between dependent tasks. Further, with SYCL graphs and SYCL kernel fusion, I will present two extensions for the SYCL programming model that have proven very effective to perform such optimization with an easy-to-use API.
