@@ -23,7 +23,6 @@ layout: default
 
 {{ talk.abstract }}
 
-
 {% if talk.materials %}
 ### Materials
 

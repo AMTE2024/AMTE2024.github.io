@@ -23,13 +23,16 @@ layout: default
 
 {{ talk.abstract }}
 
+{% if talk.materials %}
 ### Materials
 
-* [Slides](https://de.slideshare.net/PatrickDiehl3/subtle-asynchrony-by-jeff-hammond)
-* [Recording](https://youtu.be/OjANeg6ZkTs)
+{% for material in talk.materials %}
+* [{{ material.title }}]({{ material.url }})
+{% endfor %}
+{% endif %}
 
 {% endif %}
 
 {% else %}
-No invited talk has been announced yet.
+The invited talk has not been announced yet.
 {% endif %}
