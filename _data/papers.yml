@@ -19,7 +19,7 @@
 AMT runtimes can be classified by their way of task generation and task cooperation. One of the approaches is Future-based Cooperation (FBC). FBC environments may or may not allow side effects (SE), i.e., task communication through read / write accesses to global data. The addition of SE increases expressiveness but may lead to data races.
 
 This paper investigates the performance difference of pure FBC programs and FBC programs with SE in a cluster environment. For that, we use a pair of closely related AMT runtimes that support FBC with and without SE, respectively. The latter is introduced in this paper. In first experiments, we observed a similar performance of equivalent benchmark implementations on the two platforms, suggesting that a carefully implemented AMT runtime may make the usage of pure FBC practical."
-- title: GVEL: Fast Graph Loading in Edgelist and Compressed Sparse Row (CSR) formats
+- title: GVEL -- Fast Graph Loading in Edgelist and Compressed Sparse Row (CSR) formats
   id: 34
   authors:
     - Subhajit Shau
