@@ -7,3 +7,21 @@
     - Abhishek Bagusetty
     - Martin Berzins
   abstract: "A key challenge faced when preparing codes for Department of Energy (DOE) exascale systems was designing scalable applications for systems featuring hardware and software not yet available at leadership-class scale. With such systems now available, it is important to evaluate scalability of the resulting software solutions on these target systems. One such code designed with the exascale DOE Aurora and DOE Frontier systems in mind is the Uintah Computational Framework, an open-source asynchronous many-task runtime system. To prepare for exascale, Uintah adopted a portable MPI+X hybrid parallelism approach using the Kokkos performance portability library (i.e., MPI+Kokkos). This paper complements recent work with additional details and an evaluation of the resulting approach on Aurora and Frontier. Results are shown for a challenging benchmark demonstrating interoperability of 3 portable codes essential to Uintah-related combustion research. These results demonstrate single-source portability across Aurora and Frontier with strong-scaling characteristics shown to 768 Aurora nodes and 9,216 Frontier nodes. In addition to showing results run to new scales on new systems, this paper also discusses lessons learned through efforts preparing Uintah for exascale systems."
+  - title: Investigating the Performance Difference of Task Communication via Futures or Side Effects
+  id: 86
+  authors:
+    - Lukas Reitz
+    - Ben Gerhards
+    - John Hundhausen
+    - Claudia Fohry
+  abstract: "Asynchronous Many-Tasking (AMT) is a popular approach to program irregular parallel applications. In AMT, the programmer divides the computation into units, called tasks, and an AMT runtime dynamically maps the tasks to workers for processing.
+
+AMT runtimes can be classified by their way of task generation and task cooperation. One of the approaches is Future-based Cooperation (FBC). FBC environments may or may not allow side effects (SE), i.e., task communication through read / write accesses to global data. The addition of SE increases expressiveness but may lead to data races.
+
+This paper investigates the performance difference of pure FBC programs and FBC programs with SE in a cluster environment. For that, we use a pair of closely related AMT runtimes that support FBC with and without SE, respectively. The latter is introduced in this paper. In first experiments, we observed a similar performance of equivalent benchmark implementations on the two platforms, suggesting that a carefully implemented AMT runtime may make the usage of pure FBC practical."
+- title: GVEL: Fast Graph Loading in Edgelist and Compressed Sparse Row (CSR) formats
+  id: 34
+  authors:
+    - Subhajit Shau
+    - Kishore Kotapalli
+  abstract: "Efficient IO techniques are crucial in high-performance graph processing frameworks like Gunrock and Hornet, as fast graph loading can help minimize processing time and reduce system/cloud usage charges. This research study presents approaches for efficiently reading an Edgelist from a text file and converting it to a Compressed Sparse Row (CSR) representation. On a server with dual 16-core Intel Xeon Gold 6226R processors and MegaRAID SAS-3 storage, our approach, which we term as GVEL, outperforms Hornet, Gunrock, and PIGO by significant margins in CSR reading, exhibiting an average speedup of 78x, 112x, and 1.8x, respectively. For Edgelist reading, GVEL is 2.6x faster than PIGO on average, and achieves a Edgelist read rate of 1.9 billion edges/s. For every doubling of threads, GVEL improves performance at an average rate of 1.9x and 1.7x for reading Edgelist and reading CSR respectively."
