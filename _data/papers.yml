@@ -1,6 +1,9 @@
-#- title: Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing
-#    id: 17
-#    authors:
-#      - Lukas Reitz
-#      - Claudia Fohry
-#    abstract: "Recent Exascale supercomputers consist of millions of processing units, and this number is still growing. Therefore, hardware failures, such as permanent node failures, become increasingly apparent. They can be tolerated with techniques such as Checkpoint/Restart (C/R), which saves the whole application state transparently, and, in case of failure, restarts the application from the saved state; or application-level checkpointing, which saves only relevant data via explicit calls in the program. C/R has the advantage of requiring no additional programming expense, whereas application-level checkpointing is more efficient and allows to continue running the application on the intact resources (localized shrinking recovery).
+- title: Lessons Learned and Scalability Achieved when Porting Uintah to DOE Exascale Systems
+    id: 54
+    authors:
+      - john Holmen
+      - Marta Garcia
+      - Allen Sanderson
+      - Abhishek Bagusetty
+      - Martin Berzins
+    abstract: "A key challenge faced when preparing codes for Department of Energy (DOE) exascale systems was designing scalable applications for systems featuring hardware and software not yet available at leadership-class scale. With such systems now available, it is important to evaluate scalability of the resulting software solutions on these target systems. One such code designed with the exascale DOE Aurora and DOE Frontier systems in mind is the Uintah Computational Framework, an open-source asynchronous many-task runtime system. To prepare for exascale, Uintah adopted a portable MPI+X hybrid parallelism approach using the Kokkos performance portability library (i.e., MPI+Kokkos). This paper complements recent work with additional details and an evaluation of the resulting approach on Aurora and Frontier. Results are shown for a challenging benchmark demonstrating interoperability of 3 portable codes essential to Uintah-related combustion research. These results demonstrate single-source portability across Aurora and Frontier with strong-scaling characteristics shown to 768 Aurora nodes and 9,216 Frontier nodes. In addition to showing results run to new scales on new systems, this paper also discusses lessons learned through efforts preparing Uintah for exascale systems.
