@@ -4,6 +4,8 @@ layout: default
 
 # Program schedule
 
+Date: Monday, August 26th
+
 Chair: Patrick Diehl
 
 * 08:55 - 9:00, Welcome remarks
