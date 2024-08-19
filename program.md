@@ -18,9 +18,9 @@ Chair: John Holmen
 
 * 10:30 - 11:10, [Invited talk](https://amte2024.github.io/invited-talk): Expressing and Optimizing Task Graphs in Heterogeneous Programming through SYCL, Mehdi Goli
 * 11:10 - 11:30, GVEL: Fast Graph Loading in Edgelist and Compressed Sparse Row (CSR) formats, Subhajit Shau
-* 11:30 - 12:00, Investigating the Performance Difference of Task Communication via Futures or Side Effects, Lukas Reitz
-* 12:00 - 12:20, Evaluating AI-generated code for C++, Fortran, Go, Java, Julia, Matlab, Python, R, and Rust, Patrick Diehl
-* 12:20 - 12:30, Discussion
+* 11:30 - 11:50, Investigating the Performance Difference of Task Communication via Futures or Side Effects, Lukas Reitz
+* 11:50 - 12:10, Evaluating AI-generated code for C++, Fortran, Go, Java, Julia, Matlab, Python, R, and Rust, Patrick Diehl
+* 12:10 - 12:30, Discussion
 
 * 12:30 - 11:30, Lunch Break
 
