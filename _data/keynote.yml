@@ -30,9 +30,9 @@ abstract: >
   productivity and software quality. The talk will cover best practices, case
   studies, and methodologies for tool and library design, aiming to inspire
   attendees to embrace their inner craftsman in software development.
-# materials:
-#   - title: Slides
-#     url: https://de.slideshare.net/PatrickDiehl3/framework-for-extensible-asynchronous-task-scheduling-feats-in-fortran
+materials:
+    - title: Slides
+      url: https://github.com/jfalcou/presentations/blob/keynote/amte2024/tools_of_the_trade.pdf
 #   - title: Video
 #     url: https://www.example.com/watch?v=joel_falcou
 #   - title: Code
