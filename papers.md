@@ -35,7 +35,7 @@ Slides:
 **_Abstract_**: {{ paper.abstract }}
 
 {% if paper.slides %}
-Slides: [![Slides](/assets/slides.png)]({{ paper.slides }})
+[![Slides](/assets/slides.png)]({{ paper.slides }})
 {% endif %}
 
 {% endfor %}
