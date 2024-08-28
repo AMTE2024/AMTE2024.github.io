@@ -34,6 +34,10 @@ Slides:
 
 **_Abstract_**: {{ paper.abstract }}
 
+{% if paper.slides %}
+Slides: [![Slides](/assets/slides.png)]({{ paper.slides }})
+{% endif %}
+
 {% endfor %}
 {% else %}
 No papers have been accepted yet. See the [call for papers](/call-for-papers) for more information.
