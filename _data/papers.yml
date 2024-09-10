@@ -29,6 +29,7 @@ This paper investigates the performance difference of pure FBC programs and FBC 
   abstract: "Efficient IO techniques are crucial in high-performance graph processing frameworks like Gunrock and Hornet, as fast graph loading can help minimize processing time and reduce system/cloud usage charges. This research study presents approaches for efficiently reading an Edgelist from a text file and converting it to a Compressed Sparse Row (CSR) representation. On a server with dual 16-core Intel Xeon Gold 6226R processors and MegaRAID SAS-3 storage, our approach, which we term as GVEL, outperforms Hornet, Gunrock, and PIGO by significant margins in CSR reading, exhibiting an average speedup of 78x, 112x, and 1.8x, respectively. For Edgelist reading, GVEL is 2.6x faster than PIGO on average, and achieves a Edgelist read rate of 1.9 billion edges/s. For every doubling of threads, GVEL improves performance at an average rate of 1.9x and 1.7x for reading Edgelist and reading CSR respectively."
 - title: Evaluating AI-generated code for C++, Fortran, Go, Java, Julia, Matlab, Python, R, and Rust
   id: 68
+  slides: https://zenodo.org/records/13738680
   authors:
     - Patrick Diehl
     - Nojoud Nader
