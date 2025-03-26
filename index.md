@@ -22,6 +22,7 @@ The workshop will focus on the following areas:
 
 ## Previous events
 
+* [AMTE 2024](https://www.lanl.gov/amte2024) @ [Euro-Par 2024](https://2024.euro-par.org/)
 * [AMTE 2023](https://amte2023.stellar-group.org/) @ [Euro-Par 2023](https://2023.euro-par.org/)
 * [AMTE 2022](https://amte2022.stellar-group.org/) @ [Euro-Par 2022](https://2022.euro-par.org/)
 * [AMTE 2021](https://amte2021.stellar-group.org/) @ [Euro-Par 2021](https://2021.euro-par.org/)
